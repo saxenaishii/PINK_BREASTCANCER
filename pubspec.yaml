@@ -1,0 +1,89 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Noto Sans"
+      fonts: 
+        - 
+          asset: "fonts/NotoSans-italic.ttf"
+          style: "italic"
+          weight: 800
+        - 
+          asset: "fonts/NotoSans-700italic.ttf"
+          style: "italic"
+          weight: 700
+    - 
+      family: "Playfair Display"
+      fonts: 
+        - 
+          asset: "fonts/PlayfairDisplay-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/PlayfairDisplay-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/PlayfairDisplay-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Inter"
+      fonts: 
+        - 
+          asset: "fonts/Inter-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Inter-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Roboto-900.ttf"
+          style: "normal"
+          weight: 900
+    - 
+      family: "Lato"
+      fonts: 
+        - 
+          asset: "fonts/Lato-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Lato-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Source Sans Pro"
+      fonts: 
+        - 
+          asset: "fonts/SourceSansPro-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
